@@ -1,0 +1,137 @@
+html {
+  font-size: 14px;
+}
+
+/*Font style*/
+body {
+    font-family: 'Balthazar', serif; 
+}
+
+nav {
+    text-align: center;
+    background: rgba(218, 240, 238, 0.3);
+    padding: 10px;
+    
+}
+
+nav ul {
+    display: flex;
+    /*remove bullets*/
+    list-style-type: none;
+    justify-content: space-evenly;
+    
+}
+
+nav ul a:link {
+    /*remove underline*/
+    text-decoration: none;
+    color: rgb(59, 65, 60);
+    font-size: 16pt;
+}
+
+nav ul a:visited {
+    color: rgb(157, 181,178);
+}
+
+nav ul a:hover {
+    background: #fff;
+    padding: 8px;
+    text-decoration: underline;
+}
+header {
+    text-align: center;
+    background-image: url(../images/IMG_1092.JPG);
+    background-size:cover;
+    background-position: center center;
+    padding: 680px 0 20px 0;
+    
+    
+}
+
+.button {
+    padding: 10px;
+    background: rgb(218, 240, 238);
+    color: rgb(59, 65, 60);
+    font-weight: bolder;
+}
+
+.notes {
+    display: flex;
+    justify-content: space-around;
+    font-style: italic;
+    
+}
+/*Icons*/
+.fa-shipping-fast {
+    padding: 10px;
+}
+
+.fa-credit-card {
+    padding: 10px;
+}
+
+
+nav img {
+    border-radius: 12px;
+   
+}
+div {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(211, 211, 211, 0.5);
+    
+  
+}
+div h1 {
+  margin:50px;
+}
+div h2 {
+  background: white;
+  margin:50px;
+  color: red;
+}
+
+section h1 {
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+   
+}
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  
+}
+section {
+  display: flex;
+  justify-content: space-allaround;
+  /*flex-grow: 1;*/
+  background: rgba(211, 211, 211, 0.5);
+  padding: 20px;
+}
+
+figure {
+  text-align: center;
+    box-sizing: border-box; 
+    box-sizing: border-box;
+    border: 1px solid grey;
+}
+
+
+footer {
+    text-align: center;
+}
+    
+.fa-facebook-f {
+    padding: 20px;
+    color: blue;
+    }
+
+.fa-instagram {
+    padding: 20px;
+    color: red;
+        }
+.fa-envelope {
+    padding: 20px;
+}
