@@ -150,3 +150,8 @@ footer {
 #block h1 {
     text-align: left;
 }
+
+#about {
+    font-size: 14pt;
+    display: block;
+}
