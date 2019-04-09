@@ -135,3 +135,18 @@ footer {
 .fa-envelope {
     padding: 20px;
 }
+
+
+
+#block {
+    display: block;
+    
+    
+}
+#block p {
+    font-size: 14pt;
+    padding: 20px;
+}
+#block h1 {
+    text-align: left;
+}
