@@ -44,7 +44,7 @@ header {
     background-image: url(../images/IMG_1092.JPG);
     background-size:cover;
     background-position: center center;
-    padding: 680px 0 20px 0;
+    padding: 680px 0 35px 0;
     
     
 }
@@ -52,13 +52,13 @@ header {
 .button {
     padding: 20px;
     background: rgb(218, 240, 238);
-    color: rgb(59, 65, 60);
+    /*color: rgb(59, 65, 60);*/
     font-weight: bolder;
-    font-size: 18pt;
+    font-size: 30pt;
     color: darkred;
     box-sizing: border-box;
-    border: 1px solid grey;
-    
+    border: 3px solid darkred;
+   
 }
 
 .notes {
