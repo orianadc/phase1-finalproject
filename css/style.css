@@ -113,7 +113,7 @@ figure img {
 }
 section {
   display: flex;
-  justify-content: space-allaround;
+  justify-content: space-around;
   /*flex-grow: 1;*/
   background: rgba(211, 211, 211, 0.5);
   padding: 20px;
@@ -162,4 +162,17 @@ footer {
 #about {
     font-size: 14pt;
     display: block;
+}
+
+
+/*media query*/
+@media screen and (max-width: 600px) {
+    
+    html {
+        font-size: 14pt;
+    }
+    
+    section {
+        flex-direction: column;
+    }
 }
