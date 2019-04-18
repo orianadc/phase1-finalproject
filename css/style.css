@@ -127,6 +127,7 @@ figure {
 
 
 footer {
+    font-size: 12pt;
     text-align: center;
 }
     
@@ -143,6 +144,33 @@ footer {
     padding: 20px;
 }
 
+
+form {
+ font-size: 14pt
+}
+
+input {
+    margin: 5px;
+    
+}
+
+
+input[type=text] {
+    border: 1px inset grey;
+}
+
+input[type=email] {
+    border: 1px inset grey;
+}
+
+input[type=submit] {
+  border: 2px double darkred;
+  border-radius: 8px;
+  font-style: italic;
+  font-weight: bold;
+  background: rgb(218, 240, 238);
+  padding: 5px 10px;
+}
 
 /*page contact us*/
 
